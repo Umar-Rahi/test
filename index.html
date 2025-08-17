@@ -1599,3 +1599,961 @@
                 color: black !important;
             }
         }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">UR</div>
+                <span>Umar Rahi</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+            <li><a href="#education" class="mobile-nav-link">Education</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <div class="status-dot"></div>
+                <span>Available for new opportunities</span>
+            </div>
+            
+            <h1 class="hero-title">Hi, I'm <span class="text-gradient">Umar Rahi</span></h1>
+            <p class="hero-subtitle">Aspiring Software Developer crafting digital experiences with code and creativity</p>
+            
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary" onclick="downloadResume()">
+                    <i class="fas fa-download"></i>
+                    <span>Download Resume</span>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    <span>Get In Touch</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title text-gradient">About Me</h2>
+                <p class="section-subtitle">Passionate about creating innovative software solutions</p>
+            </div>
+            
+            <div class="about-content fade-in">
+                <div class="profile-image">
+                    <div class="profile-img">
+                        <i class="fas fa-user"></i>
+                        <!-- <img src="images/profile.jpg" alt="Umar Rahi" loading="lazy"> -->
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Hello! I'm Umar Rahi</h3>
+                    <p>
+                        Aspiring software developer pursuing MCA (2024–26) with hands-on experience in full-stack projects and a strong foundation in programming. I'm passionate about creating innovative software solutions that make a difference.
+                    </p>
+                    <p>
+                        Currently based in Saharanpur, Uttar Pradesh, I combine technical expertise with creative problem-solving to build applications that users love. My journey in technology is driven by curiosity and a desire to continuously learn and grow.
+                    </p>
+                    <p>
+                        I believe in writing clean, efficient code and staying updated with the latest industry trends and best practices.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-stats fade-in">
+                <div class="stat-item">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Years Learning</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title text-gradient">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            
+            <div class="skills-grid fade-in">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">C#</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">XAMPP</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & IDEs</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Android Studio</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">IntelliJ IDEA</span>
+                        <span class="skill-tag">Eclipse</span>
+                        <span class="skill-tag">Xcode</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ChatGPT</span>
+                        <span class="skill-tag">Claude AI</span>
+                        <span class="skill-tag">Gemini</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">LLM APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title text-gradient">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work and contributions</p>
+            </div>
+            
+            <div class="projects-grid fade-in">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>AQI Predictor Web Application</h3>
+                        <p>
+                            Developed a full-stack Air Quality Index predictor using machine learning algorithms. Features responsive UI with Chart.js visualizations and real-time API data integration for accurate predictions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">Random Forest</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Umar-Rahi" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Chatbot (Web & Android)</h3>
+                        <p>
+                            Built intelligent chatbots for both web and mobile platforms with basic NLP capabilities. Features clean UI design, interactive UX, and cross-platform compatibility.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Android Studio</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Umar-Rahi" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title text-gradient">Education Timeline</h2>
+                <p class="section-subtitle">My academic journey and achievements</p>
+            </div>
+            
+            <div class="timeline fade-in">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2026</div>
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <h4>Graphic Era University, Dehradun</h4>
+                        <p>Currently pursuing advanced studies in computer applications, focusing on software development, system design, and emerging technologies. Specializing in full-stack development and machine learning applications.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2024</div>
+                        <h3>Bachelor of Computer Application (BCA)</h3>
+                        <h4>Graphic Era Hill University, Dehradun</h4>
+                        <p>Completed undergraduate degree with a strong foundation in computer science fundamentals, programming languages, and software development methodologies. Built expertise in various programming languages and development frameworks.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021</div>
+                        <h3>Intermediate (12th Grade)</h3>
+                        <h4>India Today Convent Academy, CBSE</h4>
+                        <p>Completed higher secondary education under CBSE curriculum with focus on science and mathematics, laying the groundwork for computer science studies.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018</div>
+                        <h3>High School (10th Grade)</h3>
+                        <h4>Gurukul Vidyapeeth, CBSE</h4>
+                        <p>Completed secondary education under CBSE board with excellent academic performance, developing strong analytical and problem-solving skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title text-gradient">Certifications & Achievements</h2>
+                <p class="section-subtitle">Professional certifications and accomplishments</p>
+            </div>
+            
+            <div class="cert-grid fade-in">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Computing</h3>
+                    <p>Ludifu (2022)</p>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>Amazon AWS Workshop</h3>
+                    <p>Graphic Era University</p>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Research Methodology</h3>
+                    <p>NPTEL (2025)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title text-gradient">Extra Activities & Hobbies</h2>
+                <p class="section-subtitle">Beyond coding - my interests and activities</p>
+            </div>
+            
+            <div class="activities-grid fade-in">
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>NSS Volunteer</h3>
+                    <p>Active volunteer contributing to community service and social development initiatives.</p>
+                </div>
+                
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Tech Writing</h3>
+                    <p>Writes articles on gadgets and tech trends, sharing insights about emerging technologies.</p>
+                </div>
+                
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Gaming</h3>
+                    <p>Passionate about video games, carom, and table tennis. Believes in the power of strategic thinking.</p>
+                </div>
+                
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Music Lover</h3>
+                    <p>Enjoys listening to music as a source of inspiration and relaxation during coding sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title text-gradient">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            
+            <div class="contact-content fade-in">
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="your.email@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="What's this about?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:urahi788@gmail.com">urahi788@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+919897286357">+91 9897286357</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Dehradun, Uttarakhand<br>248001, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Umar-Rahi" target="_blank" rel="noopener noreferrer">github.com/Umar-Rahi</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/umar-rahi-573003148" target="_blank" rel="noopener noreferrer">Connect with me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Umar-Rahi" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/umar-rahi-573003148" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:urahi788@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+919897286357" class="social-link" aria-label="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+            
+            <p class="footer-text">&copy; 2025 Umar Rahi. All rights reserved.</p>
+            <p class="footer-text">Built with ❤️ using modern web technologies</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" onclick="scrollToTop()" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Theme Management
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.querySelector('.theme-toggle i');
+            const isDark = body.getAttribute('data-theme') === 'dark';
+            
+            if (isDark) {
+                body.removeAttribute('data-theme');
+                themeIcon.className = 'fas fa-moon';
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                themeIcon.className = 'fas fa-sun';
+            }
+            
+            // Add smooth transition effect
+            body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
+        }
+
+        // Mobile Navigation
+        function toggleMobileMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            const isActive = mobileNav.classList.contains('active');
+            
+            mobileNav.classList.toggle('active');
+            menuBtn.classList.toggle('active');
+            
+            // Prevent body scroll when menu is open
+            if (!isActive) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Close mobile menu when clicking on links
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                toggleMobileMenu();
+            });
+        });
+
+        // Navbar Scroll Effect
+        function handleNavbarScroll() {
+            const navbar = document.getElementById('navbar');
+            const scrolled = window.scrollY > 50;
+            
+            navbar.classList.toggle('scrolled', scrolled);
+        }
+
+        // Active Navigation Link
+        function updateActiveNavLink() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                if (sectionTop <= 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offset = 80;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Scroll to Top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        function handleScrollToTop() {
+            const scrollBtn = document.getElementById('scrollToTop');
+            const scrolled = window.scrollY > 300;
+            
+            scrollBtn.classList.toggle('visible', scrolled);
+        }
+
+        // Intersection Observer for Animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Form Submission
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            const form = event.target;
+            const formData = new FormData(form);
+            const name = formData.get('name').trim();
+            const email = formData.get('email').trim();
+            const subject = formData.get('subject').trim();
+            const message = formData.get('message').trim();
+            
+            if (!name || !email || !subject || !message) {
+                showNotification('Please fill in all fields.', 'error');
+                return;
+            }
+            
+            // Show loading state
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalHTML = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<div class="spinner"></div><span>Sending...</span>';
+            submitBtn.disabled = true;
+            
+            // Simulate form submission (replace with actual form handling)
+            setTimeout(() => {
+                // Create mailto link
+                const mailtoSubject = encodeURIComponent(`Portfolio Contact: ${subject}`);
+                const mailtoBody = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+                const mailtoLink = `mailto:urahi788@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+                
+                // Open default email client
+                window.location.href = mailtoLink;
+                
+                // Show success message
+                showNotification('Thank you for your message! Your email client will open with the pre-filled message.', 'success');
+                
+                // Reset form
+                form.reset();
+                
+                // Restore button
+                submitBtn.innerHTML = originalHTML;
+                submitBtn.disabled = false;
+            }, 2000);
+        }
+
+        // Resume Download
+        function downloadResume() {
+            const resumeUrl = 'https://github.com/Umar-Rahi/About-me/raw/21f27f16c5ae24cd0b15c3863f4749ece7b12a51/Umar_Rahi_Resume.pdf';
+            
+            // Show loading state
+            const downloadBtn = document.querySelector('.btn-primary');
+            const originalHTML = downloadBtn.innerHTML;
+            downloadBtn.innerHTML = '<div class="spinner"></div><span>Downloading...</span>';
+            downloadBtn.style.pointerEvents = 'none';
+            
+            // Attempt to download
+            fetch(resumeUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error('Download failed');
+                    return response.blob();
+                })
+                .then(blob => {
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'Umar_Rahi_Resume.pdf';
+                    a.style.display = 'none';
+                    
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    
+                    window.URL.revokeObjectURL(url);
+                    showNotification('📄 Resume downloaded successfully!', 'success');
+                })
+                .catch(() => {
+                    // Fallback to direct link
+                    const a = document.createElement('a');
+                    a.href = resumeUrl;
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                    a.click();
+                    
+                    showNotification('📄 Resume download started! If it opens in browser, right-click and "Save As".', 'info');
+                })
+                .finally(() => {
+                    // Restore button
+                    setTimeout(() => {
+                        downloadBtn.innerHTML = originalHTML;
+                        downloadBtn.style.pointerEvents = 'auto';
+                    }, 2000);
+                });
+        }
+
+        // Notification System
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            const colors = {
+                success: '#10b981',
+                error: '#ef4444',
+                info: '#3b82f6',
+                warning: '#f59e0b'
+            };
+            
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: ${colors[type] || colors.info};
+                color: white;
+                padding: 16px 20px;
+                border-radius: 12px;
+                box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+                z-index: 10000;
+                font-family: var(--font-body);
+                font-weight: 500;
+                max-width: min(400px, calc(100vw - 40px));
+                font-size: 14px;
+                line-height: 1.4;
+                word-wrap: break-word;
+                transform: translateX(100%);
+                transition: transform 0.3s ease;
+            `;
+            
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            // Animate in
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // Auto remove
+            setTimeout(() => {
+                notification.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        document.body.removeChild(notification);
+                    }
+                }, 300);
+            }, 4000);
+        }
+
+        // Typing Effect for Hero Title
+        function initTypingEffect() {
+            const titles = ['Software Developer', 'Full-Stack Developer', 'Problem Solver', 'Tech Enthusiast'];
+            const subtitle = document.querySelector('.hero-subtitle');
+            let titleIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            let currentTitle = '';
+            
+            function type() {
+                const fullTitle = titles[titleIndex];
+                
+                if (isDeleting) {
+                    currentTitle = fullTitle.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    currentTitle = fullTitle.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+                
+                subtitle.innerHTML = `Aspiring ${currentTitle}<span class="cursor">|</span> crafting digital experiences with code and creativity`;
+                
+                let typeSpeed = isDeleting ? 50 : 100;
+                
+                if (!isDeleting && charIndex === fullTitle.length) {
+                    typeSpeed = 2000;
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    titleIndex = (titleIndex + 1) % titles.length;
+                    typeSpeed = 500;
+                }
+                
+                setTimeout(type, typeSpeed);
+            }
+            
+            // Start typing effect after initial animation
+            setTimeout(type, 3000);
+        }
+
+        // Parallax Effect for Hero
+        function handleParallax() {
+            const hero = document.querySelector('.hero');
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            
+            if (hero) {
+                hero.style.transform = `translateY(${rate}px)`;
+            }
+        }
+
+        // Initialize Everything
+        function init() {
+            // Set up event listeners
+            window.addEventListener('scroll', () => {
+                handleNavbarScroll();
+                updateActiveNavLink();
+                handleScrollToTop();
+                handleParallax();
+            });
+            
+            // Initialize fade-in animations
+            document.querySelectorAll('.fade-in').forEach(el => {
+                observer.observe(el);
+            });
+            
+            // Add loading animation to page
+            document.body.style.opacity = '0';
+            window.addEventListener('load', () => {
+                document.body.style.transition = 'opacity 0.5s ease';
+                document.body.style.opacity = '1';
+            });
+            
+            // Initialize typing effect
+            initTypingEffect();
+            
+            // Add cursor animation styles
+            const style = document.createElement('style');
+            style.textContent = `
+                .cursor {
+                    animation: blink 1s infinite;
+                    color: var(--primary);
+                }
+                
+                @keyframes blink {
+                    0%, 50% { opacity: 1; }
+                    51%, 100% { opacity: 0; }
+                }
+                
+                .notification-enter {
+                    animation: slideInRight 0.3s ease;
+                }
+                
+                .notification-exit {
+                    animation: slideOutRight 0.3s ease;
+                }
+                
+                @keyframes slideInRight {
+                    from {
+                        transform: translateX(100%);
+                        opacity: 0;
+                    }
+                    to {
+                        transform: translateX(0);
+                        opacity: 1;
+                    }
+                }
+                
+                @keyframes slideOutRight {
+                    from {
+                        transform: translateX(0);
+                        opacity: 1;
+                    }
+                    to {
+                        transform: translateX(100%);
+                        opacity: 0;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+            
+            console.log('🚀 Modern Portfolio Website Loaded Successfully!');
+        }
+
+        // Start when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+
+        // Handle resize events
+        window.addEventListener('resize', () => {
+            // Close mobile menu on resize to desktop
+            if (window.innerWidth > 1024) {
+                const mobileNav = document.getElementById('mobileNav');
+                const menuBtn = document.querySelector('.mobile-menu-btn');
+                
+                mobileNav.classList.remove('active');
+                menuBtn.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const mobileNav = document.getElementById('mobileNav');
+                if (mobileNav.classList.contains('active')) {
+                    toggleMobileMenu();
+                }
+            }
+        });
+    </script>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Umar Rahi",
+        "jobTitle": "Aspiring Software Developer",
+        "description": "MCA student and software developer with expertise in full-stack development, machine learning, and web technologies.",
+        "url": "https://umar-rahi.github.io",
+        "email": "urahi788@gmail.com",
+        "telephone": "+919897286357",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Dehradun",
+            "addressRegion": "Uttarakhand",
+            "postalCode": "248001",
+            "addressCountry": "IN"
+        },
+        "sameAs": [
+            "https://github.com/Umar-Rahi",
+            "https://www.linkedin.com/in/umar-rahi-573003148"
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Graphic Era University"
+            },
+            {
+                "@type": "CollegeOrUniversity", 
+                "name": "Graphic Era Hill University"
+            }
+        ],
+        "knowsAbout": [
+            "Web Development",
+            "Machine Learning",
+            "Full-Stack Development",
+            "JavaScript",
+            "Python",
+            "Java"
+        ]
+    }
+    </script>
+</body>
+</html>
