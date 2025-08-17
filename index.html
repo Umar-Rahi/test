@@ -123,6 +123,28 @@
             padding: 0;
             box-sizing: border-box;
         }
+        .contact-form .btn-primary {
+    background: var(--gradient-primary);
+    color: white;
+    border: none;
+    box-shadow: var(--shadow);
+}
+
+.contact-form .btn-primary:hover {
+    background: var(--gradient-secondary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Dark theme adjustments for contact form button */
+[data-theme="dark"] .contact-form .btn-primary {
+    background: var(--gradient-primary);
+    color: white;
+}
+
+[data-theme="dark"] .contact-form .btn-primary:hover {
+    background: var(--gradient-secondary);
+}
 
         html {
             scroll-behavior: smooth;
